@@ -23,7 +23,9 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
-      applicationStyles: 'app/styles/app.scss'
+      Main:'app/components/Main.jsx',
+      applicationStyles: 'app/styles/app.scss',
+      Navigation: 'app/components/Navigation.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
